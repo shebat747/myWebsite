@@ -1,0 +1,491 @@
+@import url('Medium/BeVietnamPro_Complete/Fonts/WEB/css/beVietnam-pro.css');
+
+body{
+    list-style: none;
+    font-family: ;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    word-spacing: 3px;
+    word-wrap:normal;
+    
+    
+ 
+ }
+ 
+
+ #AboutMe, #MySkillSet, #MyWork, #ContactMe {
+     padding: 100px 0px 0px;
+     margin: -100px 0px 0px;
+ }
+ 
+ 
+ .capsuleContainer{
+     display: flex;
+     justify-content: center;  
+     background-attachment: fixed;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+     opacity: 0.95;
+     overflow-x: hidden;
+     overflow-y: scroll;
+     
+ }
+ 
+ .WholeUnderSetContainer{
+     width: 540px;
+     margin: auto;
+ 
+ }
+ 
+ 
+ .navBlock{
+     width: inherit;
+     padding-top: 15px;
+     display: flex;
+     flex-direction: row;
+     position:fixed;
+     opacity: 95%;
+     
+ }
+ 
+ 
+ 
+ .navLogo_block img{
+     padding-left: 15px;
+     padding-bottom: 10px;
+   
+     
+ }
+ 
+ 
+ .navLinks{
+     align-items: center;
+     justify-items:center;
+     display: flex;
+     flex-direction: row;
+     padding-left: 3%;
+     height: 65px;
+    
+ 
+ }
+ 
+ .navLinks li {
+     height: 65px;
+     width: 110px;
+     font-size: 18px;
+     padding-top: 13px;
+     
+ }
+ 
+ 
+ 
+ .SectionsOnPage{
+     
+     padding-top: 90px;
+     width: inherit;
+ 
+ 
+ }
+ 
+ .innerSectionsOnPage{
+     width: inherit;
+ }
+ 
+ 
+ .AboutMe , .MySkillSet , .MyWork , .ContactMe{
+ 
+ 
+ }
+ 
+ 
+ .AboutMe{
+ 
+ 
+ 
+ }
+ 
+ 
+ .MySkillSet{
+ 
+ 
+ 
+ }
+ 
+ .SkillSet_Block{
+     padding-left: 8px;
+
+ 
+ }
+ 
+ 
+ .SkillSet_Block li {
+     padding-bottom: 5px;
+ 
+ }
+ 
+ 
+ .MyWork{
+ 
+ 
+ }
+ 
+ 
+ .ContactMe{
+ 
+ }
+ 
+ 
+ .SkillSet_Block{
+     display: flex;
+     flex-direction: row;
+     padding-top: 3px;
+     
+ }
+ 
+ .SkillSet_Block_Row1{
+ 
+ 
+ }
+ 
+ 
+ .SkillSet_Block_Row2{
+     padding-left: 40px;
+ 
+ 
+ }
+ 
+ .SkillSet_Block_Row3{
+     padding-left: 40px;
+ 
+ }
+
+ .SkillSet_Block_Row4{
+    padding-left: 40PX;
+    
+ }
+ 
+ 
+ .ProjectCards{
+     display: flex;
+     flex-direction: row ;
+     flex-wrap: wrap;
+     padding-right: 50px;
+     justify-content: space-between
+     
+ }
+ 
+ .Card_Block{
+    padding-bottom: 40px;
+     padding-left: 30px;
+ 
+
+ 
+      
+ }
+
+ .Card_Block_desc{
+
+
+ }
+
+ .EmailFormBlock{
+
+
+ }
+
+
+
+ .contactBlock{
+    display: flex;
+    
+
+ }
+
+ .ContactLogos{
+
+
+ }
+
+ .ContactLogos img {
+    width: 32px;
+    height: 32px;
+    padding-bottom: 8px;
+
+
+
+ }
+
+
+ .ContactFullNames li{
+    padding-bottom: 7px;
+
+ }
+
+
+ .ContactFullNames{
+    padding-left: 15px;
+
+
+ }
+
+
+
+ .BackToTop_DivBlock{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 12px;
+        
+    } 
+
+
+
+@media (min-width: 875px)  {
+
+    body{
+        list-style: none;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        font-size: 17px;
+        font-weight: 300;
+        word-spacing: 3px;
+        word-wrap:normal;
+        
+     
+     }
+     
+    
+     #AboutMe, #MySkillSet, #MyWork, #ContactMe {
+         padding: 100px 0px 0px;
+         margin: -100px 0px 0px;
+     }
+     
+     
+     .capsuleContainer{
+         display: flex;
+         justify-content: center;  
+         background-attachment: fixed;
+         background-size: cover;
+         background-repeat: no-repeat;
+         height: 100vh;
+         opacity: 0.95;
+         overflow-x: hidden;
+         overflow-y: scroll;
+         
+     }
+     
+     .WholeUnderSetContainer{
+         width: 850px;
+         margin: auto;
+     
+     }
+     
+     
+     .navBlock{
+         width: inherit;
+         padding-top: 15px;
+         display: flex;
+         flex-direction: row;
+         position:fixed;
+         opacity: 95%;
+         padding-right: 15px;
+         
+     }
+     
+     
+     
+     .navLogo_block img{
+         padding-left: 15px;
+         padding-bottom: 10px;
+       
+         
+     }
+     
+     
+     .navLinks{
+         align-items: center;
+         justify-items:center;
+         display: flex;
+         flex-direction: row;
+         padding-left: 35%;
+         height: 65px;
+        
+        
+     
+     }
+     
+     .navLinks li {
+         height: 65px;
+         width: 110px;
+         font-size: 18px;
+         padding-top: 13px;
+         
+     }
+     
+     
+     
+     .SectionsOnPage{
+         
+         padding-top: 90px;
+         width: inherit;
+     
+     
+     }
+     
+     .innerSectionsOnPage{
+         width: inherit;
+     }
+     
+     
+     .AboutMe , .MySkillSet , .MyWork , .ContactMe{
+     
+     
+     }
+     
+     
+     .AboutMe{
+     
+     
+     
+     }
+     
+     
+     .MySkillSet{
+     
+     
+     
+     }
+     
+     .SkillSet_Block{
+         padding-left: 8px;
+     
+     }
+     
+     
+     .SkillSet_Block li {
+         padding-bottom: 5px;
+     
+     }
+     
+     
+     .MyWork{
+     
+     
+     }
+     
+     
+     .ContactMe{
+     
+     }
+     
+     
+     .SkillSet_Block{
+         display: flex;
+         flex-direction: row;
+         padding-top: 3px;
+         
+     }
+     
+     .SkillSet_Block_Row1{
+     
+     
+     }
+     
+     
+     .SkillSet_Block_Row2{
+        padding-left: 90px;
+    
+    
+    }
+    
+    .SkillSet_Block_Row3{
+        padding-left: 90px;
+    
+    }
+   
+    .SkillSet_Block_Row4{
+       padding-left: 90PX;
+       
+    }
+     
+     
+     .ProjectCards{
+         display: flex;
+         flex-direction: row ;
+         flex-wrap: wrap;
+         padding-right: 50px;
+         justify-content: space-between
+         
+     }
+     
+     .Card_Block{
+        width: 350px;
+        height: 380px;
+         padding-left: 30px;
+         padding-bottom: 25px;
+     
+    
+     
+          
+     }
+
+     .Card_Block_desc{
+
+     }
+
+
+     .EmailFormBlock{
+
+     }
+
+
+
+     .contactBlock{
+        display: flex;
+
+
+     }
+
+
+     .ContactLogos{
+
+
+     }
+
+
+     .ContactLogos img {
+        width: 32px;
+        height: 32px;
+        padding-bottom: 8px;
+
+     }
+
+
+     .ContactFullNames{
+        padding-left: 20px;
+
+
+     }
+
+     .ContactFullNames li{
+        padding-bottom: 7px;
+
+     }
+
+
+    
+     .BackToTop_DivBlock{
+        display: flex;
+        flex-direction: row-reverse;
+        padding-right: 12px;
+            
+        } 
+    
+    
+}
+
+
+
+    
+    
